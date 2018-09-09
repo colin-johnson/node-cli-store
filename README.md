@@ -15,10 +15,10 @@ A Node.js CLI that allows interactions with a local store to GET, SET, DELETE, a
 
 ## Supported Commands
 
-`SET <key> <value>` // store the value for key
-`GET <key>`         // return the current value for key
-`DELETE <key>`      // remove the entry for key
-`COUNT <value>`     // return the number of keys that have the given value
+`SET <key> <value>` // store the value for key  
+`GET <key>`         // return the current value for key  
+`DELETE <key>`      // remove the entry for key  
+`COUNT <value>`     // return the number of keys that have the given value  
 
 ## License
 
