@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const interact = require('./lib/interact');
 const chalk = require('chalk');
 const clear = require('clear');

@@ -13,7 +13,7 @@
   "author": "Colin Johnson",
   "license": "ISC",
   "bin": {
-    "clistore": "./javascript-cli.js"
+    "clistore": "./index.js"
   },
   "dependencies": {
     "chalk": "^2.3.0",
