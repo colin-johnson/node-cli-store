@@ -1,0 +1,22 @@
+{
+  "name": "clistore",
+  "version": "1.0.0",
+  "description": "an interactive command line interface to a transactional key value store",
+  "main": "javascript-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "CLI"
+  ],
+  "author": "Colin Johnson",
+  "license": "ISC",
+  "bin": {
+    "clistore": "./javascript-cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "clear": "0.0.1"
+  }
+}
