@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-const interact = require('./lib/interact');
 const chalk = require('chalk');
 const clear = require('clear');
 
 const stdin = process.openStdin();
+
+const interact = require('./lib/interact');
 const parseCommand = require('./lib/parseCommand');
 
 clear();
@@ -15,7 +16,7 @@ stdin.addListener('data', (data) => {
 
   if (data.match(/set|get|delete|count/igm)) {
     if (parseCommand.parseData(data)) {
-      if (data.match(/set/ig)) interact.set(data.toString('utf8'));
+      if (data.match(/set/ig)) interact.set(data);
 
       if (data.match(/get/ig)) interact.get(data);
 
