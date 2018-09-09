@@ -8,7 +8,7 @@ A Node.js CLI that allows interactions with a local store to GET, SET, DELETE, a
 ## Installation Steps
 
 1. Clone repo
-2. cd into `node-cli-store`
+2. `cd` into `node-cli-store`
 3. Run `npm install`
 4. Install the module globally with `npm install -g`
 5. Run `clistore`
