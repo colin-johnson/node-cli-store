@@ -13,6 +13,13 @@ A Node.js CLI that allows interactions with a local store to GET, SET, DELETE, a
 4. Install the module globally with `npm install -g`
 5. Run `clistore`
 
+## Supported Commands
+
+`SET <key> <value>` // store the value for key
+`GET <key>`         // return the current value for key
+`DELETE <key>`      // remove the entry for key
+`COUNT <value>`     // return the number of keys that have the given value
+
 ## License
 
 The MIT License (MIT)
