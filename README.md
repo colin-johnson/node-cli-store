@@ -5,12 +5,13 @@ A Node.js CLI that allows interactions with a local store to GET, SET, DELETE, a
 
 * [Node.js](http://nodejs.org/)
 
-## Installation Steps (if applicable)
+## Installation Steps
 
 1. Clone repo
-2. Run `npm install`
-3. Install the module globally with `npm install -g`
-4. Run `clistore`
+2. cd into `node-cli-store`
+3. Run `npm install`
+4. Install the module globally with `npm install -g`
+5. Run `clistore`
 
 ## License
 
